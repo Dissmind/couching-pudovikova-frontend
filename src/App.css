@@ -1,0 +1,74 @@
+/*INTRO START*/
+.Intro {
+    margin-top: 40px;
+    margin-bottom: 350px;
+}
+
+.Intro > .Intro-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.Intro > .Intro-header > .Header-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.Intro > .Intro-header > .Header-left > .Title {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Intro > .Intro-header > .Header-left > .Title > .MainTitle {
+    margin-bottom: 10px;
+}
+
+.Intro > .Intro-header > .Header-right {
+    display: inherit;
+    flex-direction: row;
+}
+
+.Intro > .Intro-header > .Header-right > .LogoInstagram {
+    margin-right: 90px;
+}
+
+.Intro > .Description {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Intro > .ButtonAppointment {
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 70px;
+}
+
+.Intro > .Img-block {
+    display: flex;
+    justify-content: center;
+}
+
+/*INTRO END*/
+
+
+
+/*ABOUT START*/
+
+.About {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.About > .Background {
+
+}
