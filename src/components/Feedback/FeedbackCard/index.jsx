@@ -33,13 +33,7 @@ const StlMeta = styled.div`
 `
 
 export const FeedbackCard = (
-    {
-        title,
-        type,
-        list,
-        time,
-        price
-    }) => (
+    {title, type, list, time, price}) => (
     <StlBorder>
         <StlCard>
             <StlTitle>{title}</StlTitle>
