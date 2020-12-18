@@ -1,5 +1,5 @@
 import React from 'react'
-import logoInstagram from '../../../img/LogoInstagram.png'
+import logoInstagram from '../../../attachments/img/LogoInstagram.png'
 import './LogoInstagram.css'
 
 function LogoInstagram() {

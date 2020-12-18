@@ -6,55 +6,55 @@ body {
 
 @font-face {
   font-family: "Poiret One";
-  src: url("./fonts/PoiretOne.ttf") format("truetype");
+  src: url("attachments/fonts/PoiretOne.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-Thin.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-Thin.ttf") format("truetype");
   font-weight: 100;
 }
 
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-ExtraLight.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-ExtraLight.ttf") format("truetype");
   font-weight: 200;
 }
 
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-Light.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-Light.ttf") format("truetype");
   font-weight: 300;
 }
   
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro.ttf") format("truetype");
   font-weight: 400;
 }
       
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-Medium.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-Medium.ttf") format("truetype");
   font-weight: 500;
 }
    
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-SemiBold.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-SemiBold.ttf") format("truetype");
   font-weight: 600;
 } 
  
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-Bold.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-Bold.ttf") format("truetype");
   font-weight: 700;
 }
       
 @font-face {
   font-family: "Ristretto Pro";
-  src: url("./fonts/RistrettoPro-Black.ttf") format("truetype");
+  src: url("attachments/fonts/RistrettoPro-Black.ttf") format("truetype");
   font-weight: 900;
 }
     
