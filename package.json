@@ -13,6 +13,7 @@
     "redux": "^4.0.5",
     "storybook": "^6.1.11",
     "storybook-react": "^3.2.16",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
