@@ -18,3 +18,12 @@ Primary.args = {
     time: '12',
     price: '14999'
 }
+
+export const Second = Template.bind({})
+Second.args = {
+    title: 'Продажи123',
+    type: 'VIP-Формат',
+    list: ['first', 'second', 'third'],
+    time: '12',
+    price: '14999'
+}

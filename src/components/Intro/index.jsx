@@ -1,25 +1,28 @@
 import Logo from "./Logo/Logo";
-import MainTitle from "./MainTitle/MainTitle";
-import HorizontalRule from "./HorizontalRule/HorizontalRule";
 import LogoInstagram from "./LogoInstagram/LogoInstagram";
 import PhoneNumber from "./PhoneNumber/PhoneNumber";
 import Description from "./Description/Description";
 import ButtonAppointment from "./ButtonAppointment/ButtonAppointment";
 import Image from "./Image/Image";
-import img1 from "../../img/img1.png";
-import img2 from "../../img/img2.png";
-import img3 from "../../img/img3.png";
+import Title from "../../UI/Title";
+import img1 from "../../attachments/img/img1.png";
+import img2 from "../../attachments/img//img2.png";
+import img3 from "../../attachments/img//img3.png";
 import React from "react";
+import './style.css'
 
 export const Intro = () => (
     <div className="Intro">
         <div className="Intro-header">
             <div className="Header-left">
                 <Logo />
-                <div className="Title">
-                    <MainTitle content="Пудовикова Елена Валерьевна" />
-                    <HorizontalRule />
-                </div>
+                <Title
+                    content="Пудовикова елена валерьевна"
+                    fontSize="45px"
+                    color="#952D31"
+                    width="920px"
+                    marginBottom="10px"
+                />
             </div>
             <div className="Header-right">
                 <LogoInstagram />

@@ -1,0 +1,18 @@
+/*ABOUT START*/
+
+.About {
+    border-bottom: #333333 1px solid;
+    border-top: #333333 1px solid;
+    height: 100px;
+}
+
+.About > .Title {
+    position: absolute;
+    /*bottom: 0px;*/
+    z-index: 2;
+}
+
+.About > .Background {
+    position: absolute;
+    z-index: 1;
+}

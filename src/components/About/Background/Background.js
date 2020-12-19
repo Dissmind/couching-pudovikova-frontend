@@ -1,10 +1,12 @@
 import React from 'react'
 import './Background.css'
 
-function Background(props) {
+function Background() {
     return (
         <div className="Background">
-            {props.children}
+            <div className="Square">
+
+            </div>
         </div>
     )
 }
