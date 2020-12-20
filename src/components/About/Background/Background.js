@@ -1,12 +1,12 @@
 import React from 'react'
 import './Background.css'
 
-function Background() {
+function Background(props) {
     return (
         <div className="Background">
-            <div className="Square">
-
-            </div>
+            <div className="BgSquareOne"></div>
+            <div className="BgSquareTwo"></div>
+            <div className="BgSquareMain"></div>
         </div>
     )
 }

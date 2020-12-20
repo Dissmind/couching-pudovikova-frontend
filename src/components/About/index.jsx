@@ -5,11 +5,13 @@ import Title from "../../UI/Title";
 
 export const About = () => (
     <div className="About">
+        <Background>
 
-        <Background />
+        </Background>
         <Title
-            content="ОБО МНЕ"
+            content="Обо мне"
             fontSize="45px"
+            // color="#FEFEFE"
             color="#111111"
             width="280px"
             marginBottom="15px"

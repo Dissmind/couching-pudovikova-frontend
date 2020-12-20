@@ -1,0 +1,33 @@
+.Record {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    height: 1080px;
+
+    border-top: #333333 1px solid;
+    border-bottom: #333333 1px solid;
+}
+
+.Record > .TitleBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Record > .TitleBackground > .Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Record > .CardBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 105px;
+}
+
+.Record > .CardBlock > .Card {
+}
+

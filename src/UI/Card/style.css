@@ -1,0 +1,42 @@
+.Card {
+    height: 577px;
+}
+
+.Card > .CardBorder {
+    position: relative;
+    width: 450px;
+    height: 560px;
+    border: 2px #E7EAEF solid;
+    z-index: 2;
+}
+
+.Card > .CardBackground {
+    position: relative;
+    width: 455px;
+    height: 560px;
+    background-color: #952D31;
+    margin-left: 10px;
+    margin-top: 12px;
+    bottom: 560px;
+    z-index: 1;
+}
+
+.Card > .CardBorder > .CardTitle {
+    font-family: "Ristretto Pro";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-left: 48px;
+    margin-top: 45px;
+}
+
+.Card > .CardBorder > .CardType {
+    font-family: "Ristretto Pro";
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-left: 48px;
+
+}

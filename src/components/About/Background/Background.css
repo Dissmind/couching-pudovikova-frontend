@@ -1,14 +1,36 @@
 .Background {
-    /*background-color: #952D31;*/
-    /*width: 1100px;*/
-    /*height: 950px;*/
-    /*margin-bottom: 55px;*/
-    /*margin-top: 55px;*/
+    position: relative;
+    display: flex;
+}
 
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
-    /*align-items: flex-end;*/
+.Background > .BgSquareOne {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #E7EAEF;
+    z-index: 1;
+    margin-top: 214px;
+    margin-left: 152px;
+}
 
+.Background > .BgSquareTwo {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #E7EAEF;
+    z-index: 1;
+    margin-top: 453px;
+    margin-left: 355px;
+}
 
-
+.Background > .BgSquareMain {
+    position: absolute;
+    width: 1100px;
+    height: 950px;
+    background-color: #952D31;
+    right: 0px;
+    z-index: 2;
+    margin-top: 65px;
+    margin-left: 500px;
+    margin-bottom: 65px;
 }

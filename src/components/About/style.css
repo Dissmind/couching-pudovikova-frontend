@@ -1,18 +1,21 @@
 /*ABOUT START*/
 
 .About {
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: center;*/
+    height: 1080px;
     border-bottom: #333333 1px solid;
     border-top: #333333 1px solid;
-    height: 100px;
+    margin-bottom: 350px;
 }
 
 .About > .Title {
+    display: flex;
+    flex-direction: column;
+
     position: absolute;
-    /*bottom: 0px;*/
-    z-index: 2;
+    margin-top: 162px;
+    z-index: 3;
 }
 
-.About > .Background {
-    position: absolute;
-    z-index: 1;
-}
