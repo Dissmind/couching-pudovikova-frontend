@@ -38,5 +38,14 @@
     color: #FFFFFF;
     font-size: 45px;
     margin-left: 48px;
+}
+
+
+.Card > .CardBorder > .CardContent > ul > li {
+    font-family: "Ristretto Pro";
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 
 }

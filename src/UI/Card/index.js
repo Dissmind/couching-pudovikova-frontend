@@ -7,8 +7,10 @@ export const Card = (props) => (
             <div className="CardTitle">Продажи</div>
             <div className="CardType">VIP-Формат</div>
             <div className="CardContent">
-                <ul>
-                    {[props.content].map(i => <li>{i}</li>)}
+                <ul style={{listStyleImage: props.liImage}}>
+                    {
+                        props.list.map(i => <li>{i}</li>)
+                    }
                 </ul>
             </div>
             <div className="ButtonMore">Подробнее</div>

@@ -3,6 +3,9 @@ import './style.css'
 import TitleBackground from "./TitleBackground/TitleBackground";
 import Title from "../../UI/Title";
 import {Card} from "../../UI/Card";
+import liWhiteImage from "../../attachments/img/li-white.png"
+import liRedImage from "../../attachments/img/li-red.png"
+
 
 export const Record = () => (
     <div className="Record">
@@ -16,7 +19,7 @@ export const Record = () => (
             />
         </TitleBackground>
         <div className="CardBlock">
-            <Card />
+            <Card {list: ["qwe", "123", "qwe"]} />
             <Card />
             <Card />
         </div>

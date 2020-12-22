@@ -11,4 +11,6 @@ export default {
 const Template = (args) => <Card {...args} />
 
 export const Primary = Template.bind({})
-Primary.args = {}
+Primary.args = {
+    list: ["qwe", '123'],
+}
