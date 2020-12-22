@@ -6,6 +6,7 @@ import {About} from "./components/About";
 import {Program} from "./components/Program";
 import {TestMargin} from "./UI/TESTMARGIN/TESTMARGIN";
 import {Record} from "./components/Record";
+import {Footer} from "./components/Footer";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
 
         <Record />
 
-
+        <Footer />
     </div>
   );
 }
