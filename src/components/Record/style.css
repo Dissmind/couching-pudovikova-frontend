@@ -1,0 +1,73 @@
+.Record {
+    height: 1080px;
+    margin-bottom: 350px;
+    border-top: #333333 1px solid;
+    border-bottom: #333333 1px solid;
+}
+
+.Record > .Background {
+    width: 700px;
+    height: 530px;
+    background-color: #952D31;
+    border: #FFFFFF 10px solid;
+    box-shadow: -15px -10px 30px #000000;
+}
+
+.Record > .Background > .InfoBlock {
+    position: relative;
+}
+
+.Record > .Background > .InfoBlock > .Description {
+    position: absolute;
+
+    width: 520px;
+    height: 100px;
+    font-size: 45px;
+    text-align: justify;
+    color: #FFFFFF;
+
+    top: 50px;
+    left: 70px;
+
+    margin-bottom: 40px;
+    font-family: "Ristretto Pro";
+    font-weight: 400;
+}
+
+.Record > .Background > .InfoBlock > .Info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 265px;
+
+    top: 190px;
+    left: 70px;
+}
+
+.Record > .Background > .InfoBlock > .Info > input {
+    margin-bottom: 30px;
+
+    height: 135px;
+
+    background-color: #952D31;
+
+    border: none;
+    outline: #952D31 1px solid;
+    border-bottom: #FFFFFF 2px solid;
+
+    font-size: 45px;
+    color: #FFFFFF;
+    font-family: "Ristretto Pro";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Record > .Background > .InfoBlock > .Info > input::placeholder {
+    color: #ffffffb4;
+    text-transform: uppercase;
+}
+.Record > .Background > .InfoBlock > .Info > input:focus {
+    outline: #FFFFFF 1px solid;
+    transition-duration: 0.5s;
+}
