@@ -2,27 +2,44 @@ import React from "react";
 import './style.css'
 
 export const Card = (props) => (
-    <div className="Card">
-        <div className="CardBorder">
-            <div className="CardTitle">Продажи</div>
-            <div className="CardType">VIP-Формат</div>
+    <div className="Card" style={{height: props.summaryHeight}}>
+        <div className="CardBorder" style={{
+            width: props.borderWidth,
+            height: props.borderHeight,
+            border: `2px ${props.borderColor} solid`,
+        }}>
+            <div className="CardTitle" style={{
+                color: props.fontColor,
+            }}>{props.cardTitle}</div>
+            <div className="CardType" style={{
+                color: props.fontColor,
+            }}>{props.cardType}</div>
             <div className="CardContent">
-                <ul style={{listStyleImage: props.liImage}}>
+                <ul>
                     {
-                        props.list.map(i => <li>{i}</li>)
+                        props.list.map(i => <li style={{color: props.fontColor}}>{i}</li>)
                     }
                 </ul>
             </div>
-            <div className="ButtonMore">Подробнее</div>
+            <div className="ButtonMore" style={{
+                border: `${props.fontColor} 2px solid`,
+                color: props.fontColor
+            }}>Подробнее</div>
             <div className="CardInformation">
-                <div className="">
-
+                <div className="TimeStudy">
+                    <p className="Title" style={{color: props.fontColor}}>Время обучения:</p>
+                    <p className="Description" style={{color: props.fontColor,}}>{props.timeStudy}</p>
                 </div>
-                <div>
-
+                <div className="Price">
+                    <p className="Title" style={{color: props.fontColor}}>Стоимость курса:</p>
+                    <p className="Description" style={{color: props.fontColor}}>{props.price} ₽</p>
                 </div>
             </div>
         </div>
-        <div className="CardBackground" />
+        <div className="CardBackground" style={{
+            width: props.backgroundWidth,
+            height: props.backgroundHeight,
+            backgroundColor: props.backgroundColor,
+        }}/>
     </div>
 )
