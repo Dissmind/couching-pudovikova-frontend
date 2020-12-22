@@ -10,13 +10,13 @@ import {TestMargin} from "./UI/TESTMARGIN/TESTMARGIN";
 function App() {
   return (
     <div className="App">
-        <TestMargin>
+         {/*<TestMargin>*/}
         <Intro />
 
         <About />
 
         <Record />
-        </TestMargin>
+        {/*</TestMargin>*/}
 
 
         {/*<Feedback />*/}

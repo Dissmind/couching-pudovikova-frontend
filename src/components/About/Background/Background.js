@@ -1,7 +1,7 @@
 import React from 'react'
 import './Background.css'
 
-function Background(props) {
+function Background() {
     return (
         <div className="Background">
             <div className="BgSquareOne"></div>
