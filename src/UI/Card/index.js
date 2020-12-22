@@ -2,18 +2,25 @@ import React from "react";
 import './style.css'
 
 export const Card = (props) => (
-    <div className="Card" style={{height: props.summaryHeight}}>
+    <div className="Card" style={{
+        height: props.summaryHeight,
+        margin: `0px ${props.cardMarginLeftRight} 0px ${props.cardMarginLeftRight}`}}
+    >
+
         <div className="CardBorder" style={{
             width: props.borderWidth,
             height: props.borderHeight,
             border: `2px ${props.borderColor} solid`,
         }}>
+
             <div className="CardTitle" style={{
                 color: props.fontColor,
             }}>{props.cardTitle}</div>
+
             <div className="CardType" style={{
                 color: props.fontColor,
             }}>{props.cardType}</div>
+
             <div className="CardContent">
                 <ul>
                     {
@@ -21,10 +28,12 @@ export const Card = (props) => (
                     }
                 </ul>
             </div>
+
             <div className="ButtonMore" style={{
                 border: `${props.fontColor} 2px solid`,
                 color: props.fontColor
             }}>Подробнее</div>
+
             <div className="CardInformation">
                 <div className="TimeStudy">
                     <p className="Title" style={{color: props.fontColor}}>Время обучения:</p>

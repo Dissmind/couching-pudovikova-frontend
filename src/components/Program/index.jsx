@@ -7,8 +7,8 @@ import liWhiteImage from "../../attachments/img/li-white.png"
 import liRedImage from "../../attachments/img/li-red.png"
 
 
-export const Record = () => (
-    <div className="Record">
+export const Program = () => (
+    <div className="Program">
         <TitleBackground>
             <Title
                 content="Темы обучения"
@@ -48,6 +48,7 @@ export const Record = () => (
                 price="9 999"
 
                 summaryHeight="577px"
+                cardMarginLeftRight="60px"
 
                 borderWidth="450px"
                 borderHeight="560px"
@@ -80,5 +81,6 @@ export const Record = () => (
                 fontColor="#952D31"
             />
         </div>
+        <div className="ButtonMore">Узнать больше информации о курсах</div>
     </div>
 )
