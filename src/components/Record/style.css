@@ -1,23 +1,73 @@
 .Record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     height: 1080px;
     margin-bottom: 350px;
     border-top: #333333 1px solid;
     border-bottom: #333333 1px solid;
 }
 
-.Record > .Background {
-    width: 700px;
-    height: 530px;
-    background-color: #952D31;
-    border: #FFFFFF 10px solid;
-    box-shadow: -15px -10px 30px #000000;
+.Record > .Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 115px;
+    margin-top: 110px;
 }
 
-.Record > .Background > .InfoBlock {
+.Record > .FormRecord {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    width: 846px;
+    height: 596px;
+}
+
+.Record > .FormRecord > .Background {
+    position: absolute;
+
+    width: 700px;
+    height: 580px;
+    background-color: #952D31;
+    border: #FFFFFF 10px solid;
+    z-index: 2;
+
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+.Record > .FormRecord > .BackgroundSquare {
+    position: absolute;
+    top: 109px;
+    left: 0px;
+
+    width: 724px;
+    height: 537px;
+    background-color: #E7EAEF;
+    z-index: 1;
+}
+
+.Record > .FormRecord > .Background > .ButtonSend {
+    background-color: #333333;
+
+    right: 0px;
+    width: 120px;
+    height: 90px;
+
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+.Record > .FormRecord > .Background > .InfoBlock {
     position: relative;
 }
 
-.Record > .Background > .InfoBlock > .Description {
+.Record > .FormRecord > .Background > .InfoBlock > .Description {
     position: absolute;
 
     width: 520px;
@@ -34,7 +84,7 @@
     font-weight: 400;
 }
 
-.Record > .Background > .InfoBlock > .Info {
+.Record > .FormRecord > .Background > .InfoBlock > .Info {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -46,7 +96,7 @@
     left: 70px;
 }
 
-.Record > .Background > .InfoBlock > .Info > input {
+.Record > .FormRecord > .Background > .InfoBlock > .Info > input {
     margin-bottom: 30px;
 
     height: 135px;
@@ -63,11 +113,10 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-.Record > .Background > .InfoBlock > .Info > input::placeholder {
+.Record > .FormRecord > .Background > .InfoBlock > .Info > input::placeholder {
     color: #ffffffb4;
     text-transform: uppercase;
 }
-.Record > .Background > .InfoBlock > .Info > input:focus {
-    outline: #FFFFFF 1px solid;
+.Record > .FormRecord > .Background > .InfoBlock > .Info > input:focus {
     transition-duration: 0.5s;
 }

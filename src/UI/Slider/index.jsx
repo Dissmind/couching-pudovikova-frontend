@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import './style.css'
 
 
 const StlSlider = styled.div`
@@ -68,12 +69,19 @@ export const Slider = ({cards}) => {
                 </StlSlider>
             </div>
 
-            <button
-                onClick={prevHandler}
-            >Prev</button>
-            <button
-                onClick={nextHandler}
-            >Next</button>
+            {/*<button*/}
+            {/*    onClick={prevHandler}*/}
+            {/*>Prev</button>*/}
+            {/*<button*/}
+            {/*    onClick={nextHandler}*/}
+            {/*>Next</button>*/}
+
+            <div className="prevButton" onClick={prevHandler}>
+
+            </div>
+            <div className="nextButton" onClick={nextHandler}>
+
+            </div>
         </>
     )
 }
