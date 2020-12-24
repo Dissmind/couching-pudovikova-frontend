@@ -52,9 +52,17 @@
 }
 
 .Record > .FormRecord > .Background > .ButtonSend {
-    background-color: #333333;
+    background-color: #FFFFFF;
+    border: #952D31 8px solid;
 
-    right: 0px;
+    position: absolute;
+    top: 240px;
+    right: -65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 120px;
     height: 90px;
 
@@ -96,7 +104,7 @@
     left: 70px;
 }
 
-.Record > .FormRecord > .Background > .InfoBlock > .Info > input {
+.Record > .FormRecord > .Background > .InfoBlock > .Info > input, select {
     margin-bottom: 30px;
 
     height: 135px;
@@ -119,4 +127,8 @@
 }
 .Record > .FormRecord > .Background > .InfoBlock > .Info > input:focus {
     transition-duration: 0.5s;
+}
+
+.Record > .FormRecord > .Background > .InfoBlock > .Info > select {
+    color: #ffffffb4;
 }
