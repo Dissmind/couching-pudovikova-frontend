@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import styled from 'styled-components'
 import './style.css'
 import Title from "../../UI/Title";
 import logoMail from "../../attachments/img/logoMail.png"
@@ -30,9 +29,9 @@ export const Record = () => {
                             <input type="text" placeholder="EMAIL"></input>
                             <select type="text" style={{color: selectColor}} onChange={() => {setSelectColor('#ffffff')}}>
                                 <option className="OptionTitle" disabled selected style={{display: "none"}}>Выбранный курс</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
+                                <option>ПРОДАЖИ - VIP-ФОРМАТ</option>
+                                <option>ПРОДАЖИ - БАЗОВЫЙ ФОРМАТ</option>
+                                <option>ПРОДАЖИ - ЭКОНОМ-ФОРМАТ</option>
                             </select>
                         </div>
                     </div>
