@@ -25,7 +25,7 @@ function App() {
 
         <Footer />
 
-        <PopupFeedback />
+        {/*<PopupFeedback />*/}
     </div>
   );
 }
