@@ -5,7 +5,7 @@ import logoMail from "../../attachments/img/logoMail.png"
 import {Element} from 'react-scroll'
 import axios from 'axios'
 
-export const Record = () => {
+export const Record = (props) => {
     const [selectColor, setSelectColor] = useState("#ffffffb4")
 
     const [name, setName] = useState('')

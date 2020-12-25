@@ -1,7 +1,5 @@
 .Feedback {
     height: 1080px;
-    border-bottom: #333333 1px solid;
-    border-top: #333333 1px solid;
     margin-bottom: 350px;
 }
 
@@ -29,11 +27,19 @@
     justify-content: center;
     align-items: center;
 
-    border: #952D31 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+
+    border: #952D31 3px solid;
     border-radius: 6px;
 
     color: #952D31;
     text-transform: uppercase;
     font-size: 40px;
-
+    font-family: "Ristretto Pro";
+    font-weight: 500;
+}
+.Feedback > .ButtonAddFeedback:hover {
+    cursor: pointer;
 }

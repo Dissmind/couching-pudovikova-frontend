@@ -1,8 +1,6 @@
 .Program {
     height: 1080px;
     margin-bottom: 350px;
-    border-top: #333333 1px solid;
-    border-bottom: #333333 1px solid;
 }
 
 .Program > .TitleBackground {
@@ -41,4 +39,7 @@
     font-size: 40px;
     font-family: "Ristretto Pro";
     font-weight: 500;
+}
+.Program > .ButtonMore {
+    cursor: pointer;
 }
