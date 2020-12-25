@@ -3,6 +3,8 @@ import "./style.css"
 import Title from "../../UI/Title";
 import {FeedbackCard} from "../../UI/FeedbackCard";
 import feedbackImage1 from "../../attachments/img/feedbackImage1.png"
+import feedbackImage2 from "../../attachments/img/feedbackImage2.png"
+import feedbackImage3 from "../../attachments/img/feedbackImage3.png"
 
 export const Feedback = () => (
     <div className="Feedback">
@@ -23,23 +25,21 @@ export const Feedback = () => (
                 date="18.06.2020"
             />
             <FeedbackCard
-                title="Анна Гленко"
-                img={feedbackImage1}
+                title="Мария Крафт"
+                img={feedbackImage2}
                 content="Что постоянный количественный рост и сфера нашей активности..."
                 date="18.06.2020"
                 marginLeft="75px"
                 marginRight="75px"
             />
             <FeedbackCard
-                title="Анна Гленко"
-                img={feedbackImage1}
+                title="Михаил Луков"
+                img={feedbackImage3}
                 content="Что постоянный количественный рост и сфера нашей активности..."
                 date="18.06.2020"
             />
         </div>
 
-        <div className="ButtonAddFeedback">
-
-        </div>
+        <div className="ButtonAddFeedback">Оставить отзыв</div>
     </div>
 )
