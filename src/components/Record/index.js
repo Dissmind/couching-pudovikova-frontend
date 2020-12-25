@@ -14,6 +14,16 @@ export const Record = (props) => {
     const [number, setNumber] = useState('')
     const [program, setProgram] = useState('')
 
+    const f = () => {
+        const url = 'http://127.0.0.1:8000/api/send-program'
+
+        console.log(url)
+        axios.get(url, {
+            params: { name, email, number, program }
+        })
+            .then((response) => console.log(response.data))
+    }
+
     return (
         <div className="Record">
             <Element name={'record-anchor'}/>
