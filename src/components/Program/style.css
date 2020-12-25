@@ -1,8 +1,6 @@
 .Program {
     height: 1080px;
     margin-bottom: 350px;
-    border-top: #333333 1px solid;
-    border-bottom: #333333 1px solid;
 }
 
 .Program > .TitleBackground {
