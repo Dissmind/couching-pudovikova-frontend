@@ -18,16 +18,5 @@ Primary.args = {
             "с клиентом", "Ценности и боли клиентов"],
 timeStudy: "12 месяцев",
     price: "14 999",
-
-    summaryHeight: "577px",
-
-    borderWidth: "450px",
-    borderHeight: "560px",
-    borderColor: "#E7EAEF",
-
-    backgroundWidth: "455px",
-    backgroundHeight: "560px",
-    backgroundColor: "#952D31",
-
-    fontColor: "#FFFFFF",
+    themeNumber: 0
 }

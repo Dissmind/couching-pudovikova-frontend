@@ -11,7 +11,7 @@ export const slice = createSlice({
     reducers: {
         fetchData: state => {
 
-            state.card.push(
+            const data = [
                 {
                     cardTitle: 'Продажи',
                     cardType: 'VIP-формат',
@@ -51,7 +51,9 @@ export const slice = createSlice({
                     price: '4 999',
                     themeNumber: 2
                 }
-            )
+            ]
+
+            state.card = data
         }
     },
 });

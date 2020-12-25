@@ -2,14 +2,15 @@ import React, {useState} from 'react'
 import './style.css'
 import Title from "../../UI/Title";
 import logoMail from "../../attachments/img/logoMail.png"
-
+import {Element} from 'react-scroll'
 
 export const Record = () => {
-
     const [selectColor, setSelectColor] = useState("#ffffffb4")
     
     return (
         <div className="Record">
+            <Element name={'record-anchor'}/>
+
             <Title
                 content="запись на обучение"
                 fontSize="45px"
