@@ -2,10 +2,6 @@
     background-color: rgba(0, 0, 0, 0.7);
     height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     position: fixed;
     left: 0px;
     right: 0px;
@@ -14,7 +10,28 @@
     z-index: 900;
 }
 
-.PopupFeedback > .Info {
+.PopupWindow {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: max-content;
+    width: max-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    alignment: center;
+
+    position: fixed;
+    left: 25vw;
+    right: 0px;
+    top: 25vh;
+    bottom: 0px;
+    z-index: 900;
+}
+
+/*TODO: ОТЦЕНТРОВАТЬ ПОПАП*/
+
+.PopupWindow > .Info {
     position: relative;
     display: flex;
     justify-content: center;
@@ -30,7 +47,7 @@
     -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
 }
 
-.PopupFeedback > .Info > .FileForm {
+.PopupWindow > .Info > .FileForm {
     position: absolute;
     top: 44px;
     left: -152px;
@@ -55,7 +72,7 @@
     -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
 }
-.PopupFeedback > .Info > .ButtonAddPhoto {
+.PopupWindow > .Info > .ButtonAddPhoto {
     position: absolute;
     top: 44px;
     left: -152px;
@@ -68,11 +85,11 @@
     filter: alpha(opacity=0);
     opacity: 0;
 }
-.PopupFeedback > .Info > .ButtonAddPhoto:hover {
+.PopupWindow > .Info > .ButtonAddPhoto:hover {
     cursor: pointer;
 }
 
-.PopupFeedback > .Info > .ButtonSend {
+.PopupWindow > .Info > .ButtonSend {
     background-color: #952D31;
     border: #FFFFFF 8px solid;
 
@@ -92,16 +109,16 @@
     -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
 }
-.PopupFeedback > .Info > .ButtonSend:hover {
+.PopupWindow > .Info > .ButtonSend:hover {
     cursor: pointer;
 }
 
-.PopupFeedback > .Info > .InputBlock {
+.PopupWindow > .Info > .InputBlock {
     display: flex;
     flex-direction: column;
 }
 
-.PopupFeedback > .Info > .InputBlock > .InputName {
+.PopupWindow > .Info > .InputBlock > .InputName {
     width: 450px;
     height: 50px;
 
@@ -119,12 +136,12 @@
     font-weight: 500;
     text-transform: uppercase;
 }
-.PopupFeedback > .Info > .InputBlock > input::placeholder{
+.PopupWindow > .Info > .InputBlock > input::placeholder{
     color: #952D31;
     text-transform: uppercase;
 }
 
-.PopupFeedback > .Info > .InputBlock > .InputFeedback {
+.PopupWindow > .Info > .InputBlock > .InputFeedback {
     width: 450px;
     height: 250px;
     border: #952D31 2px solid;
@@ -138,10 +155,10 @@
 
     resize: none;
 }
-.PopupFeedback > .Info > .InputBlock > textarea:focus{
+.PopupWindow > .Info > .InputBlock > textarea:focus{
     outline: none;
 }
-.PopupFeedback > .Info > .InputBlock > textarea::placeholder{
+.PopupWindow > .Info > .InputBlock > textarea::placeholder{
     color: #952D31;
     text-transform: uppercase;
 }

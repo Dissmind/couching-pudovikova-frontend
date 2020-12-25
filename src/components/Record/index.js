@@ -4,7 +4,7 @@ import Title from "../../UI/Title";
 import logoMail from "../../attachments/img/logoMail.png"
 import {Element} from 'react-scroll'
 
-export const Record = () => {
+export const Record = (props) => {
     const [selectColor, setSelectColor] = useState("#ffffffb4")
     
     return (
