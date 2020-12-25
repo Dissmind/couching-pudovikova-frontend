@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Slider } from './index.jsx'
-import { Card } from '../Card'
+import { Card } from '../../components/Program/Card'
 
 
 export default {
