@@ -3,13 +3,14 @@ import './style.css'
 
 import TitleBackground from "./TitleBackground/TitleBackground";
 import Title from "../../UI/Title";
-import {Card} from "./Card";
+
 import { useSelector, useDispatch } from 'react-redux'
 import {
     selectCards,
     fetchData,
 } from './index.reducer.js'
 import { Element, scroller } from 'react-scroll'
+import { Card } from '../../UI/Card'
 
 export const Program = () => {
     const cards = useSelector(selectCards)
