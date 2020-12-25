@@ -3,10 +3,17 @@ import './style.css'
 import Title from "../../UI/Title";
 import logoMail from "../../attachments/img/logoMail.png"
 import {Element} from 'react-scroll'
+import axios from 'axios'
 
 export const Record = () => {
     const [selectColor, setSelectColor] = useState("#ffffffb4")
-    
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+
+    const [number, setNumber] = useState('')
+    const [program, setProgram] = useState('')
+
     return (
         <div className="Record">
             <Element name={'record-anchor'}/>
@@ -25,10 +32,14 @@ export const Record = () => {
                             Оставьте свои данные и мы перезвоним вам для уточнения полной информации.
                         </div>
                         <div className="Info">
-                            <input type="text" placeholder="ВАШЕ ИМЯ"></input>
-                            <input type="text" placeholder="ТЕЛЕФОН"></input>
-                            <input type="text" placeholder="EMAIL"></input>
-                            <select type="text" style={{color: selectColor}} onChange={() => {setSelectColor('#ffffff')}}>
+                            <input type="text" placeholder="ВАШЕ ИМЯ" onChange={e => setName(e.target.value)} />
+                            <input type="text" placeholder="ТЕЛЕФОН" onChange={e => setEmail(e.target.value)} />
+                            <input type="text" placeholder="EMAIL" onChange={e => setNumber(e.target.value)} />
+                            <select type="text" style={{color: selectColor}} onChange={e => {
+                                const selectedIndex = e.target.options.selectedIndex
+                                setProgram(e.target.options[selectedIndex].value)
+                                setSelectColor('#ffffff')}
+                            }>
                                 <option className="OptionTitle" disabled selected style={{display: "none"}}>Выбранный курс</option>
                                 <option>ПРОДАЖИ - VIP-ФОРМАТ</option>
                                 <option>ПРОДАЖИ - БАЗОВЫЙ ФОРМАТ</option>
@@ -36,7 +47,10 @@ export const Record = () => {
                             </select>
                         </div>
                     </div>
-                    <div className="ButtonSend">
+                    <div
+                        onClick={f}
+                        className="ButtonSend"
+                    >
                         <img src={logoMail} alt="logoMail" className="logoMail" />
                     </div>
                 </div>
