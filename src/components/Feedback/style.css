@@ -1,0 +1,39 @@
+.Feedback {
+    height: 1080px;
+    border-bottom: #333333 1px solid;
+    border-top: #333333 1px solid;
+    margin-bottom: 350px;
+}
+
+.Feedback > .Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 67px;
+}
+
+.Feedback > .FeedbackCardBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 145px;
+}
+
+.Feedback > .ButtonAddFeedback {
+    width: 400px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #952D31 2px solid;
+    border-radius: 6px;
+
+    color: #952D31;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}

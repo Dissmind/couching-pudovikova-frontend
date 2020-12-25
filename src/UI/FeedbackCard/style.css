@@ -1,0 +1,79 @@
+.FeedbackCard {
+    width: 430px;
+    height: 570px;
+
+    border: #952D31 2px solid;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FeedbackCard > .FeedbackCardTitle {
+    font-family: "Ristretto Pro";
+    font-weight: 600;
+    font-size: 40px;
+    color: #952D31;
+
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+.FeedbackCard > .FeedbackCardImage {
+    margin-top: 15px;
+}
+
+.FeedbackCard > .FeedbackCardContent {
+    font-family: "Ristretto Pro";
+    font-weight: 400;
+    font-size: 40px;
+    color: #952D31;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.FeedbackCard > .FeedbackCardButtonMore {
+    width: 184px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #952D31 2px solid;
+    border-radius: 6px;
+
+    font-family: "Ristretto Pro";
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #A3494D;
+
+    margin-top: 20px;
+}
+.FeedbackCard > .FeedbackCardButtonMore:hover {
+    color: #952D31;
+    transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+}
+
+.FeedbackCard > .FeedbackCardDate {
+    font-family: "Ristretto Pro";
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #952D31;
+
+    margin-top: 20px;
+    margin-right: 46px;
+
+    align-self: flex-end;
+}
