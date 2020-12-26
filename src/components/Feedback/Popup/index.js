@@ -4,7 +4,7 @@ import logoMail from '../../../attachments/img/logoMailWhite.png'
 
 export const PopupFeedback = ({close}) => (
     <>
-        <div className="PopupFeedback" onClick={close} />
+        <div className="PopupBackground" onClick={close} />
 
         <div className="PopupWindow">
             <div className="Info">
