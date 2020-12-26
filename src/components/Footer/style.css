@@ -34,7 +34,7 @@
 
 .Footer > .Logo {
     position: relative;
-    bottom: 0px;
+    margin-bottom: -150px;
     width: max-content;
     height: max-content;
 }
