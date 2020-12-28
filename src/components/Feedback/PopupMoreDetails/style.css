@@ -1,3 +1,15 @@
+.PopupBackground {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 900;
+}
+
 .PopupMoreDetails {
     position: fixed;
     top: 50%;
@@ -11,8 +23,8 @@
     width: 900px;
     height: 400px;
 
-    background-color: #a54d4d;
-
+    background-color: #FFFFFF;
+    z-index: 901;
 }
 
 .PopupMoreDetails > .Info {
@@ -21,10 +33,17 @@
 
     width: 775px;
     height: 300px;
-    background-color: #333333;
 }
 
+.PopupMoreDetails > .Info > .Photo {
+    align-self: center;
+    width: 258px;
+    height: 258px;
+}
+
+
 .PopupMoreDetails > .Info > .Content {
+    width: 470px;
     display: flex;
     flex-direction: column;
 }
@@ -33,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: #952D31 2px solid;
+    margin-bottom: 25px;
 }
 
 .PopupMoreDetails > .Info > .Content > .Title > .Name {
@@ -45,11 +65,32 @@
 }
 
 .PopupMoreDetails > .Info > .Content > .Title > .Date {
-    height: 50px;
+    height: 35px;
     text-transform: uppercase;
-    /*line-height: 10px;*/
+    align-self: flex-end;
+    line-height: 100%;
     font-family: "Ristretto Pro";
     font-weight: 400;
     font-size: 30px;
     color: #952D31;
+}
+
+.PopupMoreDetails > .Info > .Content > .Description {
+    font-family: "Ristretto Pro";
+    font-weight: 500;
+    font-size: 40px;
+    text-align: justify;
+    overflow-y: scroll;
+    padding-right: 30px;
+}
+
+/* SCROLLBAR STYLE */
+.PopupMoreDetails > .Info > .Content > .Description::-webkit-scrollbar {
+    width: 6px;
+}
+/* Handle */
+.PopupMoreDetails > .Info > .Content > .Description::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #952D31;
 }
