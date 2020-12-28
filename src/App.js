@@ -6,8 +6,6 @@ import {Program} from "./components/Program";
 import {Record} from "./components/Record";
 import {Footer} from "./components/Footer";
 import {Feedback} from "./components/Feedback";
-import {PopupFeedback} from "./components/Feedback/Popup/index.js";
-
 
 function App() {
   return (
@@ -25,7 +23,6 @@ function App() {
 
         <Footer />
 
-        {/*<PopupFeedback />*/}
     </div>
   );
 }
