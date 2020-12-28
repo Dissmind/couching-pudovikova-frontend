@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.Intro > .Intro-header > .Header-right > .LogoInstagram {
+.Intro > .Intro-header > .Header-right > .LogoInstagram, a {
     margin-right: 90px;
 }
 

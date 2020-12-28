@@ -7,22 +7,21 @@ import {Record} from "./components/Record";
 import {Footer} from "./components/Footer";
 import {Feedback} from "./components/Feedback";
 
+
 function App() {
   return (
     <div className="App">
+            <Intro />
 
-        <Intro />
+            <About />
 
-        <About />
+            <Program />
 
-        <Program />
+            <Feedback />
 
-        <Feedback />
+            <Record />
 
-        <Record />
-
-        <Footer />
-
+            <Footer />
     </div>
   );
 }
