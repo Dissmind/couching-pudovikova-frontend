@@ -16,11 +16,11 @@ export const Record = (props) => {
 
     const f = () => {
         const url = 'http://127.0.0.1:8000/api/send-program'
+        const params = '?email='+email+'&number='+number+'&name='+name+'&program='+program
 
-        console.log(url)
-        axios.get(url, {
-            params: { name, email, number, program }
-        })
+        console.log(url + params)
+
+        axios.get(url + params)
             .then((response) => console.log(response.data))
     }
 
@@ -43,8 +43,8 @@ export const Record = (props) => {
                         </div>
                         <div className="Info">
                             <input type="text" placeholder="ВАШЕ ИМЯ" onChange={e => setName(e.target.value)} />
-                            <input type="text" placeholder="ТЕЛЕФОН" onChange={e => setEmail(e.target.value)} />
-                            <input type="text" placeholder="EMAIL" onChange={e => setNumber(e.target.value)} />
+                            <input type="text" placeholder="ТЕЛЕФОН" onChange={e => setNumber(e.target.value)} />
+                            <input type="text" placeholder="EMAIL" onChange={e => setEmail(e.target.value)} />
                             <select type="text" style={{color: selectColor}} onChange={e => {
                                 const selectedIndex = e.target.options.selectedIndex
                                 setProgram(e.target.options[selectedIndex].value)
