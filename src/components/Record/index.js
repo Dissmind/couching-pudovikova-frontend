@@ -15,10 +15,9 @@ export const Record = (props) => {
     const [program, setProgram] = useState('')
 
     const f = () => {
-        const url = 'http://127.0.0.1:8000/api/send-program'
+        // const url = 'https://server.epudovikova.ru/api/send-program'
+        const url = 'https://server.epudovikova.ru/api/send-program'
         const params = '?email='+email+'&number='+number+'&name='+name+'&program='+program
-
-        console.log(url + params)
 
         axios.get(url + params)
             .then((response) => console.log(response.data))
