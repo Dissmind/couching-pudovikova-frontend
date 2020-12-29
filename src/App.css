@@ -1,0 +1,24 @@
+@media screen and (min-width: 1600px) {
+    .Intro {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .About {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+/*@media screen and (min-width: 1200px) and (max-width: 1599px){*/
+/*    * {*/
+/*        zoom: 0.96;*/
+/*    }*/
+/*    .Intro {*/
+/*        max-width: 1200px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*    .About {*/
+/*        max-width: 1200px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/

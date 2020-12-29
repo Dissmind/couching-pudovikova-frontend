@@ -5,6 +5,7 @@
     border: #952D31 2px solid;
     border-radius: 8px;
 
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,12 +17,15 @@
     font-size: 40px;
     color: #952D31;
 
-    margin-top: 32px;
+    position: absolute;
+    top: 32px;
+
     text-transform: uppercase;
 }
 
 .FeedbackCard > .FeedbackCardImage {
-    margin-top: 15px;
+    position: absolute;
+    top: 102px;
     width: 187px;
     height: 187px;
 }
@@ -29,15 +33,17 @@
 .FeedbackCard > .FeedbackCardContent {
     font-family: "Ristretto Pro";
     font-weight: 400;
+    line-height: 35px;
     font-size: 40px;
+    text-align: center;
     color: #952D31;
 
-    margin-left: 30px;
-    margin-right: 30px;
-    line-height: 35px;
-    text-align: center;
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 120px;
 
-    margin-top: 20px;
+    position: absolute;
+    top: 317px;
 }
 
 .FeedbackCard > .FeedbackCardButtonMore {
@@ -57,15 +63,11 @@
     text-transform: uppercase;
     color: #A3494D;
 
-    margin-top: 20px;
+    position: absolute;
+    top: 445px;
 }
 .FeedbackCard > .FeedbackCardButtonMore:hover {
     cursor: pointer;
-    color: #952D31;
-    transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    -o-transition-duration: 0.25s;
-    -webkit-transition-duration: 0.25s;
 }
 
 .FeedbackCard > .FeedbackCardDate {
@@ -75,8 +77,7 @@
     text-transform: uppercase;
     color: #952D31;
 
-    margin-top: 20px;
-    margin-right: 46px;
-
-    align-self: flex-end;
+    position: absolute;
+    top: 515px;
+    right: 30px;
 }

@@ -1,27 +1,37 @@
 /*ABOUT START*/
 
 .About {
-    display: flex;
-    flex-direction: column;
     position: relative;
     height: 1080px;
+
+    display: flex;
+    flex-direction: column;
+
     margin-bottom: 350px;
 }
 
 .About > .Title {
-    margin-top: 162px;
+    position: absolute;
+    top: 162px;
     z-index: 3;
+
+    align-self: center;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .About > .InfoBlock {
-    z-index: 4;
+    position: absolute;
+    top: 301px;
+    right: 91px;
+    z-index: 3;
+
+    align-self: center;
+
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
-    margin-left: 152px;
     justify-content: center;
 }
 

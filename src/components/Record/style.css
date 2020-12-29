@@ -25,7 +25,10 @@
 }
 
 .Record > .FormRecord > .Background {
-    position: absolute;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
 
     width: 700px;
     height: 580px;
@@ -73,36 +76,36 @@
 }
 
 .Record > .FormRecord > .Background > .InfoBlock {
-    position: relative;
+    position: absolute;
+    top: 0;
 }
 
 .Record > .FormRecord > .Background > .InfoBlock > .Description {
-    position: absolute;
+    /*position: absolute;*/
 
     width: 520px;
     height: 100px;
-    font-size: 45px;
-    text-align: justify;
     color: #FFFFFF;
 
-    top: 50px;
-    left: 70px;
-
+    margin-top: 50px;
+    margin-left: 70px;
     margin-bottom: 40px;
+
     font-family: "Ristretto Pro";
     font-weight: 400;
+    text-align: justify;
+    font-size: 45px;
 }
 
 .Record > .FormRecord > .Background > .InfoBlock > .Info {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     flex-direction: column;
 
     width: 500px;
     height: 265px;
 
-    top: 190px;
-    left: 70px;
+    margin-left: 70px;
 }
 
 .Record > .FormRecord > .Background > .InfoBlock > .Info > input, select {

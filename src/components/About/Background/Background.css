@@ -1,35 +1,43 @@
 .Background {
     position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+    /*align-items: center;*/
+
+    height: max-content;
 }
 
 .Background > .BgSquareOne {
     position: absolute;
+    z-index: 1;
+    top: 214px;
+    left: 80px;
+
     width: 300px;
     height: 300px;
     background-color: #E7EAEF;
-    z-index: 1;
-    margin-top: 214px;
-    margin-left: 152px;
 }
 
 .Background > .BgSquareTwo {
     position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: #E7EAEF;
     z-index: 1;
-    margin-top: 453px;
-    margin-left: 355px;
+    top: 453px;
+    left: 355px;
+
+    width: 520px;
+    height: 520px;
+    background-color: #E7EAEF;
 }
 
 .Background > .BgSquareMain {
     position: absolute;
-    width: 65%;
+    z-index: 2;
+    top: 65px;
+    bottom: 65px;
+    right: 0;
+
+    width: 1100px;
     height: 950px;
     background-color: #952D31;
-    right: 0px;
-    z-index: 2;
-    margin-top: 65px;
-    margin-left: 500px;
-    margin-bottom: 65px;
 }

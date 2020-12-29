@@ -26,8 +26,8 @@ export const FeedbackCard = (props) => {
             <div className="FeedbackCardTitle">{props.title}</div>
             <img className="FeedbackCardImage" src={props.img} alt="feedbackImage"/>
             <div className="FeedbackCardContent">
-                {(props.content.length > 90) ?
-                    (`"` + props.content.slice(0, 90) + `..."`) :
+                {(props.content.length > 81) ?
+                    (`"` + props.content.slice(0, 81) + `..."`) :
                     (`"` + props.content + `"`)}
             </div>
             <div className="FeedbackCardButtonMore" onClick={() => {setPopupMoreDetailsToggle(true)}}>Подробнее</div>
