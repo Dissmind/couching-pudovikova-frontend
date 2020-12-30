@@ -17,7 +17,7 @@ export const Record = (props) => {
     const f = () => {
         // const url = 'https://server.epudovikova.ru/api/send-program'
         const url = 'https://server.epudovikova.ru/api/send-program'
-        const params = '?email='+email+'&number='+number+'&name='+name+'&program='+program
+        const params = '?email='+email+'&phone_number='+number+'&name='+name+'&program='+program
 
         axios.get(url + params)
             .then((response) => console.log(response.data))

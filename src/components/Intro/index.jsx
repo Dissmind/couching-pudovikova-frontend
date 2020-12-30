@@ -26,7 +26,7 @@ export const Intro = () => (
             </div>
             <div className="Header-right">
                 <LogoInstagram />
-                <PhoneNumber content="+ 7 (911) 465-34-32" />
+                <PhoneNumber content="+ 7 (923) 635-33-34" />
             </div>
         </div>
         <Description content="Не следует забывать, что переменам противиться бессмысленно. Они либо ведут нас к вершинам, либо делают отстающими." />

@@ -95,9 +95,9 @@ export const Card = (props) => {
 
                 <div className="CardInformation">
                     <div className="TimeStudy">
-                        <p className="Title" style={{color: theme[props.themeNumber].fontColor}}>Время обучения:</p>
-                        <p className="Description"
-                           style={{color: theme[props.themeNumber].fontColor,}}>{props.timeStudy}</p>
+                        {/*<p className="Title" style={{color: theme[props.themeNumber].fontColor}}>Время обучения:</p>*/}
+                        {/*<p className="Description"*/}
+                        {/*   // style={{color: theme[props.themeNumber].fontColor,}}>{props.timeStudy}</p>*/}
                     </div>
                     <div className="Price">
                         <p className="Title" style={{color: theme[props.themeNumber].fontColor}}>Стоимость курса:</p>

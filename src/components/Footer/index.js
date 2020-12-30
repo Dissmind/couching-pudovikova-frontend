@@ -6,10 +6,10 @@ export const Footer = () => (
     <div className="Footer">
         <div className="InfoBlock">
             <div className="Info">
-                2360494, Россия, г. Калининград
-                <br />ул. Менделеева, 78г
-                <br />+7 (911) 576-58-48
-                </div>
+                + 7 (923) 635-33-34
+                <br/>
+                г. Калининград
+            </div>
             <div className="Copyright">
                 © 2020 "Пудовикова Елена Валерьевна"
             </div>
