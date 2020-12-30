@@ -1,12 +1,12 @@
 .PopupBackground {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 100vh;
+    height: 100%;
 
     position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     z-index: 900;
 }
 
@@ -58,7 +58,7 @@
 .PopupMoreDetails > .Info > .Content > .Title > .Name {
     height: 50px;
     text-transform: uppercase;
-    font-family: "Ristretto Pro";
+    font-family: "Ristretto Pro", "sans-serif";
     font-weight: 600;
     font-size: 45px;
     color: #952D31;
@@ -69,14 +69,14 @@
     text-transform: uppercase;
     align-self: flex-end;
     line-height: 100%;
-    font-family: "Ristretto Pro";
+    font-family: "Ristretto Pro", "sans-serif";
     font-weight: 400;
     font-size: 30px;
     color: #952D31;
 }
 
 .PopupMoreDetails > .Info > .Content > .Description {
-    font-family: "Ristretto Pro";
+    font-family: "Ristretto Pro", "sans-serif";
     font-weight: 500;
     font-size: 40px;
     text-align: justify;

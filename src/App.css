@@ -9,16 +9,30 @@
     }
 }
 
-/*@media screen and (min-width: 1200px) and (max-width: 1599px){*/
-/*    * {*/
-/*        zoom: 0.96;*/
-/*    }*/
-/*    .Intro {*/
-/*        max-width: 1200px;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*    .About {*/
-/*        max-width: 1200px;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 1400px) and (max-width: 1599px){
+    * {
+        zoom: 98%;
+    }
+    .Intro {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .About {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+    * {
+        zoom: 94.5%;
+    }
+    .Intro {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .About {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

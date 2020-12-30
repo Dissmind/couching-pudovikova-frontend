@@ -3,13 +3,7 @@ import './HorizontalRule.css'
 
 function HorizontalRule(props) {
     return (
-        <div className="HorizontalRule">
-            <hr style={{
-                width: props.width,
-                backgroundColor: props.color,
-                border: `1px solid ${props.color}`
-            }} />
-        </div>
+        <div className="HorizontalRule" style={{borderBottom: `3px solid ${props.color}`, width: props.width, borderRadius: `10px`}} />
     )
 }
 
