@@ -2,7 +2,7 @@ import Background from "./Background/Background";
 import React from "react";
 import './style.css'
 import Title from "../../UI/Title";
-import aboutImage from '../../attachments/img/elena.jpg'
+import aboutImage from '../../attachments/img/elena.png'
 
 export const About = () => (
     <div className="About">
@@ -16,7 +16,7 @@ export const About = () => (
         />
         <div className="InfoBlock">
             <div className="Image">
-                <img src={aboutImage} width={'80%'} alt="aboutImage" className="AboutImage" />
+                <img src={aboutImage} alt="aboutImage" className="AboutImage" />
             </div>
             <div className="Info">
                 <p>Меня зовут Елена.</p>
