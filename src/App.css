@@ -14,25 +14,82 @@
         zoom: 98%;
     }
     .Intro {
-        max-width: 1400px;
+        max-width: 1502px;
         margin: 0 auto;
     }
     .About {
-        max-width: 1400px;
+        max-width: 1502px;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px){
     * {
-        zoom: 94.5%;
+        zoom: 96%;
     }
     .Intro {
-        max-width: 1200px;
+        max-width: 1487px;
         margin: 0 auto;
     }
     .About {
-        max-width: 1200px;
+        max-width: 1487px;
         margin: 0 auto;
     }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    * {
+        zoom: 94%;
+    }
+    .Intro {
+        max-width: 1262px;
+        margin: 0 auto;
+    }
+    .About {
+        max-width: 1262px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+    * {
+        zoom: 92%;
+    }
+    .Intro {
+        max-width: 1097px;
+        margin: 0 auto;
+    }
+    .About {
+        max-width: 1097px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px){
+    * {
+        zoom: 89%;
+    }
+    .Intro {
+        width: auto;
+        margin: 0 auto;
+    }
+    .About {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px){
+    * {
+        zoom: 83.5%;
+    }
+    .Intro {
+        width: auto;
+        margin: 0 auto;
+    }
+    .About {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
