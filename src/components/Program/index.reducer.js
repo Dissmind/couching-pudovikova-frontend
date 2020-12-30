@@ -27,7 +27,7 @@ export const slice = createSlice({
                 },
                 {
                     cardTitle: 'Продажи',
-                    cardType: 'VIP-формат',
+                    cardType: 'Базовый формат',
                     list: [
                         'Психология продаж',
                         'Владение переговорами',
@@ -40,7 +40,7 @@ export const slice = createSlice({
                 },
                 {
                     cardTitle: 'Продажи',
-                    cardType: 'Базовый формат',
+                    cardType: 'Эконом-формат',
                     list: [
                         'Психология продаж',
                         'Владение переговорами',
